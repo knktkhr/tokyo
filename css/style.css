@@ -3,15 +3,15 @@
     padding: 0;
 }
 
-a {
-    color: #fff;
-    text-decoration: none;
-}
-
 li,
 ul {
     list-style: none;
 }
+
+a {
+    color: #fff;
+}
+
 
 body {
     max-width: 100vw;
@@ -29,299 +29,174 @@ body {
     margin: 40px auto;
 }
 
-.hero {
-    width: 100vw;
-}
-
-.hero img {
-    width: 100%;
-    /* 子要素にはvw使わない */
-}
-
-.member {
-    font-family: 'Shippori Mincho B1', serif;
-    width: 95vw;
-    margin: 40px auto 0 auto;
-}
-
-.member h2 {
-    font-size: 50px;
-}
 
 .maincontent {
+    width: 100vw;
     font-family: 'Shippori Mincho B1', serif;
 }
 
-.member-content p {
-    font-size: 20px;
-}
 
-.member-content {
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-}
-
-.member img {
-    width: 50%;
-}
-
-.member-text {
-    width: 50%;
-    margin-left: 24px;
-}
-.member-text p{
-    font-size: 30px;
-}
-.member-item{
-    font-size: 25px;
-}
-
-.member-list {
-    margin-top: 24px;
-}
 
 .first {
-    margin-top: 80px;
     width: 100vw;
-    height: 60vw;
-    max-height: 800px;
+    margin: 0 auto;
+    font-family: 'Shippori Mincho B1', serif;
 }
 
 .first-header {
-    position: relative;
-    width: 100vw;
-    height: calc(100% - 75px);
-    overflow: hidden;
-    /* はみ出たものを隠す */
-}
-
-.first-header img {
-    position: absolute;
-    width: 100%;
-}
-
-.first-header::after {
-    content: "";
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(180deg, transparent 0 20%, #222 100%);
+    width: 90vw;
+    display: flex;
+    align-items: flex-end;
+    margin: 80px auto 30px auto;
 }
 
 .first-header h1 {
     font-size: 60px;
-    margin-left: 24px;
-    position: absolute;
-    bottom: 0;
-    z-index: 1;
-
+    width: 60%;
 }
 
-.first-content {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.first-content p {
-    font-size: 30px;
-    margin: 24px auto auto 24px;
-}
-
-.first-content a {
-    font-size: 25px;
-    padding: 16px 24px;
-    border: solid #fff 1px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.second {
-    width: 95vw;
-    display: flex;
-    margin: 80px auto 0 auto;
-}
-
-.second h1 {
-    font-size: 60px;
-}
-
-.second p {
-    font-size: 30px;
-}
-
-.second-content {
-    margin-left: 24px;
-    display: flex;
-    flex-direction: column;
-}
-
-.second-content img {
-    margin-top: 25px;
-}
-
-.second img {
-    width: 50%;
-}
-
-.second-content a {
-    font-size: 25px;
-    padding: 16px 24px;
-    border: solid #fff 1px;
-    margin: 24px auto 0 0;
-    text-align: center;
-}
-
-.third {
-    width: 95vw;
-    display: flex;
-    margin: 80px auto 80px auto;
-}
-.third-content h1{
-    font-size: 60px;
-}
-.third-content p{
-    margin-bottom: 20px;
-    font-size: 30px;
-}
-.third-content a{
-    font-size: 25px;
-}
-
-.third img {
+.first-header p {
+    font-size: 28px;
     width: 40%;
 }
 
-.third-content {
-    margin-left: 24px;
+.first-content img {
+    width: 100%;
 }
 
-.third-content img {
-    width: 47%;
+
+.second {
+    width: 100vw;
+    margin: 80px auto 30px auto;
+    font-family: 'Shippori Mincho B1', serif;
 }
 
-.third-content a {
-    padding: 16px 24px;
-    border: solid #fff 1px;
-    text-align: center;
-
+.second-header h1 {
+    font-size: 60px;
+    width: 60%;
 }
 
-.third-img {
-    margin-bottom: 24px;
+.second-header p {
+    font-size: 28px;
+    width: 40%;
 }
+
+.second-header {
+    width: 90vw;
+    display: flex;
+    align-items: flex-end;
+    margin: 80px auto 30px auto;
+}
+
+.second-content img {
+    width: 100%;
+}
+.member-ite{
+    width: 95vw;
+    margin: 0 auto;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.member-list{
+    width: 100%;
+}
+.member-list img{
+    width: 23%;
+    margin: 50px auto 0 20px;
+}
+.footer{
+    width: 100vw;
+    margin: 50px auto;
+}
+.qr{
+    width: 100%;
+    display: flex;
+}
+.hp{
+    margin-left: 130px;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+
+}
+.hp img{
+   width: 20%; 
+}
+.hp a{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.logo2{
+    width: 40%;
+}
+.logo2 img{
+    width: 80%;
+}
+
 
 @media (max-width:700px) {
-    .member-content {
+    .first{
+        margin: 30px auto 0 auto;
+    }
+    .first-header{
         flex-direction: column;
         align-items: flex-start;
     }
+.first-header h1{
+    width: 90%;
+    font-size: 28px;
+}
+.first-header p{
+    width: 90%;
+    font-size: 13px;
+}
 
-    .member h2 {
-        font-size: 35px;
-    }
+.second{
+    margin: 30px auto 0 auto;
+}
 
-    .member img {
-        width: 100%;
-    }
-    .member-item{
-        font-size: 15px;
-    }
+.second-header{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.second-header h1{
+    width: 90%;
+    font-size: 28px;
+}
+.second-header p{
+    width: 90%;
+    font-size: 13px;
+}
+.member-list img{
+    width: 23%;
+    margin: 10px auto 0 4px;
+}
 
-    .member-text {
-        margin-left: 0;
-        margin-top: 24px;
-        width: 100%;
-    }
-    .member-text p{
-        font-size: 20px;
-    }
+.footer{
+    width: 100vw;
+    margin: 10px auto;
+}
+.qr{
+    width: 100%;
+    align-items: flex-start;
+}
+.hp{
+   margin-left: 0;
+}
+.hp a{
+    font-size: 10px;
+}
+.hp img{
+    width: 20%;
 
-    .first {
-        height: 400px;
-    }
+}
 
-    .first-header h1 {
-        font-size: 30px;
-    }
+.hp{
+    margin-right: -50px;
+    margin-left: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
-    .first-content p {
-        font-size: 20px;
-    }
-
-    .first-content {
-        flex-direction: column;
-    }
-
-    .first-content a {
-        font-size: 15px;
-        margin: 15px auto 0 10px;
-    }
-
-    .second {
-        flex-direction: column;
-    }
-
-    .second-content {
-        margin-left: 0;
-    }
-
-    .second-content h1 {
-        margin-top: -30px;
-        margin-bottom: 20px;
-        font-size: 30px;
-    }
-
-    .second-content a {
-        font-size: 15px;
-    }
-
-    .second-content p {
-        font-size: 20px;
-    }
-
-    .second img {
-        width: 100%;
-
-    }
-
-    .none {
-        display: none;
-    }
-
-    .third {
-        flex-direction: column;
-    }
-
-    .third-content {
-        margin-left: 0;
-    }
-
-    .third-content h1 {
-        font-size: 30px;
-        margin-top: -20px;
-        margin-bottom: 10px;
-    }
-
-    .third-content p {
-        font-size: 20px;
-        margin-bottom: 15px;
-    }
-
-    .third-content a {
-        font-size: 15px;
-    }
-
-    .third img {
-        width: 90%;
-    }
-
-    .third-img img {
-        width: 45%;
-    }
 }
